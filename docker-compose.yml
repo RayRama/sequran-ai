@@ -1,0 +1,14 @@
+version: "3"
+services:
+  sequran-ai:
+    image: ramadita12/sequran-ai:1.0
+    ports:
+      - 25117:80
+    networks:
+      - niat-yang-suci
+    volumes:
+      - /home/praktikumc/1217050117/sequran-ai:/home/sequran-ai
+
+networks:
+  niat-yang-suci:
+    external: true
