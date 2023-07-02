@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y git neovim netcat python3-pip
 
 # Copy web service files
 COPY main.py /home/sequran-ai/main.py
+COPY quran.csv /home/sequran-ai/quran.csv
 COPY quran.xlsx /home/sequran-ai/quran.xlsx
 COPY requirements.txt /home/sequran-ai/requirements.txt
 

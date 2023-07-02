@@ -1,9 +1,9 @@
 version: "3"
 services:
   sequran-ai:
-    image: ramadita12/sequran-ai:1.0
+    image: ramadita12/sequran-ai:1.1
     ports:
-      - 25117:80
+      - "25117:25117"
     networks:
       - niat-yang-suci
     volumes:

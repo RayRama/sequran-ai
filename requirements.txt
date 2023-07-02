@@ -4,3 +4,4 @@ Sastrawi
 scikit-learn
 fastapi
 uvicorn
+openpyxl
